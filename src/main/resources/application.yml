@@ -1,0 +1,17 @@
+server:
+  port: 8763
+
+---
+  
+spring:
+  profiles: dev
+  
+---
+  
+spring:
+  profiles: test
+
+---
+
+spring:
+  profiles: prod
